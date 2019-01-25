@@ -1,0 +1,29 @@
+2.
+$ ls -d p*
+$ ls -d *y
+$ ls -d m*d
+$ ls -d [egm]*
+$ ls -d *o*p*
+$ ls -d *conf*
+$ ls -d s*n*
+$ ls -d ????
+$ ls -d *[0-9]*
+Lists all files in current directory
+
+3.
+$ name=Joe
+$ address='    22 Acacia Avenue'
+$ echo $name
+$ echo "$address"
+
+4.
+$ now=(date +%c)
+$ echo $now
+$ here=$(tty)
+$ echo $here
+$ echo "I lost my will to live at $now while working on $here"
+
+1.
+$ PS1=’\u:$PWD $’
+$ cd /tmp
+Single quotes preserve formatting

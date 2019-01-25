@@ -1,0 +1,6 @@
+A hard link directs to the same i number, a symbolic link creates a new i number and directs to the original file.
+Recursive
+To put etc in
+
+-rm -r, -rm -rf
+Error.

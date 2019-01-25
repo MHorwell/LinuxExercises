@@ -1,0 +1,27 @@
+1.
+$?
+|
+Show last ten lines of file beginning with 2.
+cat, tee
+tr < "file", data | tr, 
+
+2.
+grep berlin country.txt
+grep -i french country.txt
+grep -v english country.txt
+
+3.
+cut -d, -f2,3 country.txt
+cut -d, -f1,2 country.txt
+cut -d, -f2,4 country.txt
+cut -d, -f1 | -c1-3 country.txt
+
+4.
+grep -i english country.txt | cut -d, f1,4
+
+5.
+sort -d country.txt
+sort -t, -k3 country.txt
+
+6.
+cut -d, -f3 country.txt | uniq -u | sort -d

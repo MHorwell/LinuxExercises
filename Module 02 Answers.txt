@@ -1,0 +1,7 @@
+1.
+Kernel
+manual
+
+Text
+tail
+grep can be used to find any line containing a pattern

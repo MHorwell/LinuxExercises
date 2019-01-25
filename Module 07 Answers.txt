@@ -1,0 +1,19 @@
+1.
+2
+> overwrites or creates, >> appends or creates
+<< is bullshit, < is standard input
+2>file will overwrite 1>file
+&>, >&, 2&>1
+set -o noclobber
+
+2.
+cat /etc/passwd > result0
+cat > result1
+
+3.
+stdinput cat reads file1, stdinput cat takes input file1 then reads it.
+Can't have multiple inputs
+
+4.
+file2 has overwritten file1
+file2 >> file3

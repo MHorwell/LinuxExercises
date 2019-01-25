@@ -1,0 +1,2 @@
+A virtual machine is an emulated computer system.
+A hypervisor can manage and customise virtual machines.
